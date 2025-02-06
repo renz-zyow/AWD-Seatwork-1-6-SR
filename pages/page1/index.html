@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Management</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <video autoplay loop muted playsinline>
+        <source src="./assets/img/background.mp4" type="video/mp4">
+    </video>
+    
+    <nav>
+        <a href="index.html"><img src="./assets/img/logo.png"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Grade Management</h1>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <input type="number" id="grade1" placeholder="Python" required>
+        <input type="number" id="grade2" placeholder="Networking" required>
+        <input type="number" id="grade3" placeholder="Design Thinking" required>
+        <input type="number" id="grade4" placeholder="Web Design" required>
+        <input type="number" id="grade5" placeholder="Database" required>
+        <button onclick="calculateGWA()">Calculate GWA</button>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>
