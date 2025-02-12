@@ -61,3 +61,31 @@ a img {
     height: auto;
     margin-right: auto;
 }
+
+.center-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.center-container button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background: grey;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.center-container button:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.center-container h1 {
+    padding-bottom: 25px;
+    color: white;
+}
